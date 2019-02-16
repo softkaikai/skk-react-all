@@ -1,0 +1,64 @@
+@mixin spaceMixin($i) {
+     @for $j from 0 through $i {
+         .m-r-#{$j*5} {
+             margin-right: $j*5 + 0px;
+         }
+         .m-l-#{$j*5} {
+             margin-left: $j*5 + 0px;
+         }
+         .m-t-#{$j*5} {
+             margin-top: $j*5 + 0px;
+         }
+         .m-b-#{$j*5} {
+             margin-bottom: $j*5 + 0px;
+         }
+         .m-#{$j*5} {
+             margin: $j + 0px;
+         }
+
+         .p-r-#{$j*5} {
+             padding-right: $j*5 + 0px;
+         }
+         .p-l-#{$j*5} {
+             padding-left: $j*5 + 0px;
+         }
+         .p-t-#{$j*5} {
+             padding-top: $j*5 + 0px;
+         }
+         .p-b-#{$j*5} {
+             padding-bottom: $j*5 + 0px;
+         }
+         .p-#{$j*5} {
+             padding: $j + 0px;
+         }
+     }
+}
+
+@mixin borderMix($i) {
+    @for $j from 0 through $i {
+        .bd-#{$j} {
+            border: ($j + 0PX) solid #e5e5e5;
+        }
+        .bd-l-#{$j} {
+            border-left: ($j + 0PX) solid #e5e5e5;
+        }
+        .bd-r-#{$j} {
+            border-right: ($j + 0PX) solid #e5e5e5;
+        }
+        .bd-t-#{$j} {
+            border-top: ($j + 0PX) solid #e5e5e5;
+        }
+        .bd-b-#{$j} {
+            border-bottom: ($j + 0PX) solid #e5e5e5;
+        }
+    }
+}
+
+
+@mixin fontSize($i) {
+    @for $j from 24 through $i {
+        .f-s-#{$j} {
+            font-size: $j + 0px;
+        }
+    }
+}

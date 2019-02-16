@@ -1,0 +1,89 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    line-height: 1;
+
+    color: #333;
+}
+div, p, h1, h2, h3, h4, h5, h6, input, button, img, ul, li, tr, td, thead, tbody, tfoot, th, header, footer, section, nav, article, aside {
+    box-sizing: border-box;
+}
+html {
+    font-size: 12px; /*no*/
+}
+body {
+    line-height: 1;
+    font-size: 12px;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need ‘cellspacing=”0″‘ in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+
+input {
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+input::-webkit-input-placeholder,
+input:-moz-placeholder,
+input:-ms-input-placeholder { /* WebKit browsers */
+    color: #e0e0e0;
+}
+
+
+
+
